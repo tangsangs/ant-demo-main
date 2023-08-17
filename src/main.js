@@ -12,5 +12,4 @@ createApp(App).use(Antd);
 
 createApp(App).config.globalProperties.$axios = axios;
 
-
 createApp(App).use(router).use(Antd).mount('#app')

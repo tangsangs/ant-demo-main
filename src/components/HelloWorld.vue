@@ -66,6 +66,7 @@ export default {
 };
 </script>
 
+
 <style>
 /* Your CSS styles go here */
 </style>

@@ -1,4 +1,5 @@
 import Mock from 'mockjs';
+import axios from 'axios';
 
 Mock.mock('/api/login', 'post', (options) => {
     const { username, password } = JSON.parse(options.body);
@@ -23,3 +24,5 @@ Mock.mock('/api/interfaces', 'get', {
         },
     ],
 });
+
+
