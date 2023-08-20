@@ -15,7 +15,7 @@ Mock.mock('/api/login', 'post', (options) => {
 });
 
 Mock.mock('/api/interfaces', 'get', {
-    'interfaces|5-10': [
+    'interfaces|10-20': [
         {
             'id|+1': 1,
             'name': '@title',
